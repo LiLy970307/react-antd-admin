@@ -14,6 +14,9 @@ import { LocaleFormatter, localeConfig } from './locales';
 import RenderRouter from './routes';
 import { setGlobalState } from './stores/global.store';
 
+import './assets/common.scss';
+import './index.css'
+
 const App: React.FC = () => {
   const { locale } = useSelector(state => state.user);
   const { theme, loading } = useSelector(state => state.global);

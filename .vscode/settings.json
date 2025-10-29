@@ -19,5 +19,6 @@
   },
   "[typescriptreact]": {
     "editor.formatOnSave": false
-  }
+  },
+  "marscode.chatLanguage": "cn"
 }
